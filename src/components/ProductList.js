@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Product from "./Product.js";
 import Title from "./Title.js";
-import { storeProducts } from "../data";
 import { ProductConsumer } from "../context";
 export default class ProductList extends Component {
   render() {
